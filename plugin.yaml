@@ -1,0 +1,6 @@
+name: Error Analyser
+description: Interprets the error
+author: https://github.com/clbarrell
+requirements: ["node"]
+configuration:
+  additionalProperties: false

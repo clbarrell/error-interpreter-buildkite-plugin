@@ -1,0 +1,6 @@
+services:
+  lint:
+    image: buildkite/plugin-linter
+    command: ['--id', 'clbarrell/error-interpreter']
+    volumes:
+      - ".:/plugin:ro"

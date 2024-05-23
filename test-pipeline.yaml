@@ -1,0 +1,4 @@
+steps:
+  - command: echo "Hey dude! this is step 1"
+    plugins:
+      - file://Users/chrisbarrell/Code/error-interpreter-buildkite-plugin
